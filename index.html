@@ -1,5 +1,120 @@
-Hello world check out my homepage!
-
-
-----------------------------
-http://username.github.io
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test v3.2</title>
+<style type="text/css">
+body {background-color:chocolate;}
+h1   {font-size:14pt;
+      font-family:Verdana;}
+p.valasz {color:white;
+          font-family:Arial;
+          font-weight:bold;}
+p    {color:lightgrey;}
+</style>
+</head>
+<body>
+<h1>What does HTML stand for?</h1>
+ <p class="valasz">Hyper Text Markup Language</p>
+ <p>Home Tool Markup Language</p>
+ <p>Hyperlinks and Text Markup Language</p>
+<br>
+<h1>What is the correct HTML code for creating a hyperlink?</h1>
+ <p>&lt;a&gt;http://www.disney.hu&lt;/a&gt;</p>
+ <p>&lt;a name="http://www.disney.hu"&gt;disney.hu&lt;/a&gt;</p>
+ <p>&lt;!--&lt;a url="http://www.disney.hu"&gt;disney.hu&lt;/a&gt;--&gt;</p>
+ <p class="valasz">&lt;a href="http://www.disney.hu"&gt;disney.hu&lt;/a&gt;</p>
+<br>
+<h1>What is the correct HTML code for making a text input field?</h1>
+ <p class="valasz">&lt;input type="text"&gt;</p>
+ <p>&lt;input type="textfield"&gt;</p>
+ <p>&lt;textfield&gt;</p>
+ <p>&lt;textinput type="text"&gt;</p>
+<br>
+<h1>HTML comments start with &lt;!-- and end with --&gt;</h1>
+<br>
+ <p class="valasz">True<p/>
+<br>
+<h1>Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?</h1>
+ <p>longdesc</p>
+ <p class="valasz">alt</p>
+ <p>title</p>
+ <p>src</p>
+<br>
+<h1>What is the correct HTML code for adding a background color?</h1>
+ <p>&lt;background&gt;yellow&lt;/background&gt;</p>
+ <p class="valasz">&lt;body style="background-color:yellow;"&gt;</p>
+ <p>&lt;body bg="yellow"&gt;</p>
+<br>
+<h1>Which of these set of elements correctly start a table element?</h1>
+ <p>&lt;thead&gt;&lt;body&gt;&lt;tr&gt;</p>
+ <p>&lt;table&gt;&lt;head&gt;&lt;tfoot&gt;</p>
+ <p class="valasz">&lt;table&gt;&lt;tr&gt;&lt;td&gt;</p>
+ <p>&lt;table&gt;&lt;tr&gt;&lt;tt&gt;</p>
+<br>
+<h1>What is the correct HTML code to start defining a drop-down list?</h1>
+ <p>&lt;input type="dropdown"&gt;</p>
+ <p class="valasz">&lt;select&gt;</p>
+ <p>&lt;list&gt;</p>
+ <p>&lt;input type="list"&gt;</p>
+<br>
+<h1>What is the correct HTML code for inserting an image?</h1>
+ <p>&lt;image src="image.gif" alt="MyImage"&gt;</p>
+ <p class="valasz">&lt;img src="image.gif" alt="MyImage"&gt;</p>
+ <p>&lt;img alt="MyImage"&gt;image.gif&lt;/img&gt;</p>
+ <p>&lt;img href="image.gif" alt="MyImage"&gt;</p>
+<br>
+<h1>What is the correct HTML code for inserting a background image?</h1>
+ <p class="valasz">&lt;body style="background-image:url(background.gif)"&gt;</p>
+ <p>&lt;body bg="background.gif"&gt;</p>
+ <p>&lt;background img="background.gif"&gt;</p>
+<br>
+<h1>What is the correct HTML code for inserting an image having absolute path in a HTML
+email source code?</h1>
+ <p>&lt;img src="c:\image\image.gif" alt="MyImage"&gt;</p>
+ <p class="valasz">&lt;img src="http://domain.tld/image/image.gif" alt="MyImage"&gt;</p>
+ <p>&lt;img src="//domain.tld/image/image.gif" alt="MyImage"&gt;</p>
+ <p>&lt;img src="file:///c:\image\image.gif" alt="MyImage"&gt;</p>
+ <p>&lt;img src="domain.tld/image/MyImage"&gt;image.gif&lt;/img&gt;</p>
+<br>
+<h1>How can you track whether an HTML mail has been opened?</h1>
+<p>Answer:</p><p class="valasz">
+<br>
+<h1>How can you track whether a text-only mail has been opened?</h1>
+<p>Answer:</p>
+<br> 
+<h1>How can you track that your visitor on your web page came from a link on your newsletter?</h1>
+<p>Answer:</p>
+<br> 
+<h1>How can you send an email in some other persons name? (technically, not legally)</h1>
+<p>Answer:</p><p class="valasz">If sending html emails In PHP you use: mail($to, $subject, $message, $header); command.
+For examle, you can use this: $header = "From: email@email.com\r\n"; , in order to look like the email comes from the email@email.com adress, instead of the original. </p>
+<br> 
+<h1>Which one(s) are valid DNS record type(s)?</h1>
+<p class="valasz">CNAME</p>
+<p>RNAME</p>
+<p class="valasz">AAAA</p>
+<p class="valasz">DNAME</p>
+<p>SNAME</p>
+<br>
+<h1>Correct the following SQL query and name the SQL version you used:</h1>
+<p>PLEASE SELECT * IN TABLE WHERE COLUMN A IS EQUAL 8 ORDER RANDOMLYo</p>
+<br>
+<h1>Write an Excel expression which extracts the country domain from the following URL: http://disney.de</h1>
+<p>Answer:</p>
+<br>
+<h1>What is the difference between Page Views, Page Visits and Unique Visitors of a web page? How would you count them in order to get a reliable result?</h1>
+<p>Answer:</p><p class="valasz"> - Page visit counts if a person visit your site with a time out limit.</p>
+<p class="valasz"> - Page view counts how many times the web pages viewed, in your site.</p>
+<p class="valasz"> - Unique visitors counted with cookies, per device ip adress.</p>
+<p class="valasz"> I would use uniqe visitors counter. I know, I should use mysql somehow, to count them checking their ip adress, but I haven't used mysql ever.</p>
+<br>
+<h1>What is the difference between a HTTP 301 and a 302 redirect?</h1>
+<p>Answer:</p><p class="valasz">The 301 redirecting, is used for to sign the search engines that the page is moved permanently to a new location. The 302 redirecting is used, when the page/link is temporarly unavailable.
+<br>
+<h1>What is the web technology you most like and was invented in the last couple of years? Why?</h1>
+<p>Answer:</p><p class="valasz">HTML5 - Because it's simplifies webpage development and it's more secure to use, instead of flash.</p>
+<br> 
+<h1>Do you want to hear a TCP joke?</h1>
+<p>Answer:</p><p class="valasz">Yes, I want to hear a TCP joke.</p>
+</body>
+</html>
